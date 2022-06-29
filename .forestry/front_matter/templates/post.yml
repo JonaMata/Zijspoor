@@ -12,3 +12,5 @@ fields:
   default: []
   label: tags
   hidden: true
+pages:
+- posts/stokstaartje.md
