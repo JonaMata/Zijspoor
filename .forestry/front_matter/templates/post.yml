@@ -13,5 +13,12 @@ fields:
   - post
   label: tags
   hidden: false
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: false
+  default: post.njk
 pages:
 - posts/stokstaartje.md
