@@ -9,7 +9,8 @@ fields:
   label: Title
 - name: tags
   type: tag_list
-  default: []
+  default:
+  - post
   label: tags
   hidden: true
 pages:
