@@ -3,12 +3,15 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 media_folder: "media"
+site_url: https://zijspoor.jntn.dev
+locale: 'nl'
 collections:
   - name: "post"
     label: "Post"
     folder: "posts"
     create: true
     slug: "{{title}}"
+    preview_path: "posts/{{title}}"
     fields:
       - {label: "Title", name: "title"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post.njk"}
