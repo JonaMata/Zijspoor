@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Pages
 - type: document
   path: index.njk
   label: Home
 - type: document
   path: about/index.njk
   label: About
+- type: heading
+  label: Content
 - type: directory
   path: posts
   label: Posts
