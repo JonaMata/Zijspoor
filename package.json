@@ -1,0 +1,14 @@
+{
+  "name": "zijspoor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonathan Matarazzi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
