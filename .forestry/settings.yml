@@ -10,7 +10,7 @@ sections:
   path: index.njk
   label: Home
 - type: document
-  path: about/index.njk
+  path: about/index.md
   label: About
 - type: heading
   label: Content
