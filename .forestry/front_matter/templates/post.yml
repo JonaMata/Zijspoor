@@ -12,13 +12,13 @@ fields:
   default:
   - post
   label: tags
-  hidden: false
+  hidden: true
 - name: layout
   type: text
   config:
     required: false
   label: layout
-  hidden: false
+  hidden: true
   default: post.njk
 pages:
 - posts/stokstaartje.md
