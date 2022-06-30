@@ -48,6 +48,9 @@ collections:
         name: tags
         widget: hidden
         default: posts
+      - label: Date
+        name: date
+        widget: hidden
       - label: Body
         name: body
         widget: markdown
