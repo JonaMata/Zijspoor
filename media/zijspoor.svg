@@ -1,0 +1,15 @@
+<svg width="500" height="500" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="90" stroke-width="5" stroke="black" stroke-linecap="round" />
+  <line x1="40" y1="10" x2="40" y2="90" stroke-width="5" stroke="black" stroke-linecap="round" />
+  <line x1="10" y1="20" x2="40" y2="20" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="10" y1="40" x2="40" y2="40" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="10" y1="60" x2="40" y2="60" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="10" y1="80" x2="40" y2="80" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <path d="M 10 90 A 80 80 0 0 1 90 10" fill="none" stroke-width="5" stroke="black" stroke-linecap="round"/>
+  <path d="M 40 90 A 50 50 0 0 1 90 40" fill="none" stroke-width="5" stroke="black" stroke-linecap="round"/>
+  <line x1="12" y1="75" x2="40" y2="80" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="21" y1="55" x2="45" y2="65" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="33" y1="37" x2="55" y2="54" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="50" y1="20" x2="67" y2="45" stroke-width="3" stroke="black" stroke-linecap="round" />
+  <line x1="75" y1="12" x2="80" y2="40" stroke-width="3" stroke="black" stroke-linecap="round" />
+</svg>

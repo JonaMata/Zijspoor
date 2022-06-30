@@ -23,6 +23,7 @@ type: website
         <meta property="og:site_name" content="{{ name }}" />
         <meta property="og:title" content="{{ title or name }}" />
         <meta property="og:url" content="{{ page.url }}" />
+        <meta property="og:image" content="/media/zijspoor.svg" />
         <meta property="og:description" content="{{ description }}" />
         <meta property="og:type" content="{{ type }}" />
         {% if type=='article' %}
@@ -37,6 +38,7 @@ type: website
         <header>
             <nav>
                 <div>
+                    <img height="40" src="/media/zijspoor.svg" />
                     <a href="/"><h2>{{ name }}</h2></a>
                 </div>
                 <div>
