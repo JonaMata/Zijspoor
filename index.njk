@@ -2,7 +2,7 @@
 layout: base.njk
 pagination:
     data: collections.post
-    size: 2
+    size: 10
     alias: posts
     generatePageOnEmptyData: true
 ---
@@ -12,10 +12,12 @@ pagination:
     <br><br>
     {% for post in posts %}
     <div class="post">
+        <div class="post-body">
         <a href="{{ post.url }}">
             <h2 class="text-center">{{ post.data.title }}</h2>
         </a>
         {{ post.templateContent | safe }}
+        </div>
     </div>
     {% endfor %}
     {% if pagination.hrefs.length > 1 %}
