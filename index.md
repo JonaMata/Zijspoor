@@ -2,4 +2,4 @@
 title: Zijspoor
 layout: home.njk
 ---
-Korte tekstjes, vaak volledig waargelogen, soms ook gebasseerd op een ware grap.
+<p class="text-center">Korte tekstjes, vaak volledig waargelogen, soms ook gebasseerd op een ware grap.</p>
