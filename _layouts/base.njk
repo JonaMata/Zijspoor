@@ -21,9 +21,9 @@ type: website
         <meta name="robots" content="index, follow" />
 
         <meta property="og:site_name" content="{{ name }}" />
-        <meta property="og:title" content="{{ title or name }}" />
+        <meta property="og:title" content="{{ name }}{% if title %} | {{ title }}{% endif %}" />
         <meta property="og:url" content="{{ page.url }}" />
-        <meta property="og:image" content="/media/zijspoor.svg" />
+        <meta property="og:image" content="/media/zijspoor.png" />
         <meta property="og:description" content="{{ description }}" />
         <meta property="og:type" content="{{ type }}" />
         {% if type=='article' %}
