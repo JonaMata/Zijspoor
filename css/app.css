@@ -42,14 +42,28 @@ nav {
     align-items: center;
 }
 
+nav div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 nav a {
     color: black;
-    text-decoration:solid 5px;
+    text-decoration: none;
+}
+
+nav a.current {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .post {
     border-top: dashed 2px lightgray;
-    padding: 20px 50px;
+    padding: 20px 20px;
 }
 
 .post-body {

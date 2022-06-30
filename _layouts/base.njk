@@ -19,7 +19,20 @@ title: Zijspoor
                     <a href="/"><h2>{{ name }}</h2></a>
                 </div>
                 <div>
-                    <a href="/about">About</a>
+                    <a href="/"
+                        {% if page.url=='/' %}
+                            class="current"
+                        {% endif %}
+                        >
+                            Home
+                        </a>
+                    <a href="/about/"
+                        {% if page.url=='/about/' %}
+                            class="current"
+                        {% endif %}
+                    >
+                        About
+                    </a>
                 </div>
             </nav>
             <hr>
