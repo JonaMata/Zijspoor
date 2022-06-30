@@ -9,9 +9,21 @@ collections:
   - name: pages
     label: Pages
     files:
+      - name: home
+        label: Home
+        file: index.md
+        preview_path: /
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
       - name: about
         label: About
         file: about/index.md
+        preview_path: about/
         fields:
           - label: Title
             name: title
