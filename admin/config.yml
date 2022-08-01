@@ -51,6 +51,7 @@ collections:
       - label: Date
         name: date
         widget: hidden
+        default: "git Last Modified"
       - label: Body
         name: body
         widget: markdown
