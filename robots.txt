@@ -1,0 +1,4 @@
+Sitemap: https://zijspoor.jntn.dev/sitemap.xml
+
+User-agent: *
+Disallow:
