@@ -6,8 +6,8 @@ date: git Last Modified
 ---
 Best een prima knaap als je het mij vraagt.
 
-\## FAQ
+## FAQ
 
-\### Wat vind je van jezelf?
+### Wat vind je van jezelf?
 
 Best een prima knaap.
