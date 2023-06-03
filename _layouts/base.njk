@@ -1,5 +1,5 @@
 ---
-name: Zijspoor
+name: ZotSpot
 description: Korte tekstjes, vaak volledig waargelogen, soms ook gebasseerd op een ware grap.
 type: website
 ---
@@ -16,7 +16,8 @@ type: website
             {% endif %}
         </title>
 
-        <link rel="icon" href="/media/zijspoor.svg" />
+        <link rel="icon" href="/media/zotspot.png" sizes="any"/>
+        <link rel="icon" type="image/svg+xml" href="/media/zotspot.svg" />
 
         <meta name="description" content="{{ description }}" />
         <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -25,7 +26,7 @@ type: website
         <meta property="og:site_name" content="{{ name }}" />
         <meta property="og:title" content="{{ name }}{% if title %} | {{ title }}{% endif %}" />
         <meta property="og:url" content="{{ page.url }}" />
-        <meta property="og:image" content="https://zijspoor.jntn.dev/media/zijspoor-share.png" />
+        <meta property="og:image" content="https://zotspot.jntn.dev/media/zotspot-share.png" />
         <meta property="og:description" content="{{ description }}" />
         <meta property="og:type" content="{{ type }}" />
         {% if type=='article' %}
@@ -39,7 +40,7 @@ type: website
         <header>
             <nav>
                 <div>
-                    <img height="40" src="/media/zijspoor.svg" alt="Zijspoor logo" />
+                    <img height="40" src="/media/zotspot.svg" alt="ZotSpot logo" />
                     <a href="/"><h2>{{ name }}</h2></a>
                 </div>
                 <div>
