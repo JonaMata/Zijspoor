@@ -1,36 +1,51 @@
 html {
     font-family: Roboto, sans-serif;
     background-color: whitesmoke;
+    height: 100%;
 }
 
 body {
     margin: 0;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
-header {
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, main, footer {
     padding: 0 20px;
 }
 
-main {
-    padding: 0 20px;
+footer div {
+    border-top: dashed 2px lightgray;
+    padding: 20px 20px;
+    color: grey;
+}
+
+footer a {
+    color: grey;
+}
+
+footer a:hover {
+    color: lightgrey;
+}
+
+footer div span {
+    float: right;
 }
 
 @media (min-width: 600px) {
-    header {
-        padding: 0 10%;
-    }
-
-    main {
+    header, main, footer {
         padding: 0 10%;
     }
 }
 
 @media (min-width: 900px) {
-    header {
-        padding: 0 20%;
-    }
-
-    main {
+    header, main, footer {
         padding: 0 20%;
     }
 }
